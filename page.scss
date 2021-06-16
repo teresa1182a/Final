@@ -29,14 +29,26 @@ ul {
 
 /* NAV */
 .main-nav {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   height: 3.5rem;
   font-size: 0.8rem;
+  margin-top: 1rem;
+
+  .logo{
+    margin-top: 1rem;
+    padding-right: 1rem;
+
+
+  }
 
   ul {
     display: flex;
+    align-items: center;
+
+
 
     &.main-menu {
       flex: 1;
@@ -45,6 +57,7 @@ ul {
 
     li {
       padding: 0 0.7rem;
+      margin-top: 0.6rem;
     }
     a {
       padding-bottom: 2px;
@@ -54,25 +67,10 @@ ul {
     }
   }
 }
+.we{
 
-.menu-btn{
-  cursor: pointer;
-  position: absolute;
-  top: 1.2rem;
-  right: 3rem;
-  z-index: 2;
-  display: none;
+img{
+  width: 65%;
+  margin: auto;
 }
-
-.btn {
-  width: 8rem;
-  margin-top: 1rem;
-  background: #000000;
-  color: white;
-  padding: 0.5rem 1.5rem;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: bold;
-  
 }
