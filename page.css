@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-size: 10px;
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #262626;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 110rem;
+  margin: auto;
+}
+
+/* NAV */
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.5rem;
+  font-size: 0.8rem;
+}
+
+.main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav ul.main-menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 2rem;
+}
+
+.main-nav ul li {
+  padding: 0 0.7rem;
+}
+
+.main-nav ul a {
+  padding-bottom: 2px;
+}
+
+.main-nav ul a:hover {
+  border-bottom: 2px solid #262626;
+}
+
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 1.2rem;
+  right: 3rem;
+  z-index: 2;
+  display: none;
+}
+
+.btn {
+  width: 8rem;
+  margin-top: 1rem;
+  background: #000000;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=page.css.map */
